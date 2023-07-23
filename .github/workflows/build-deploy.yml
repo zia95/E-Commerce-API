@@ -1,0 +1,12 @@
+name: Build and deploy
+
+on: [push, pull_request]
+
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling git repo
+        uses: actions/checkout@v2
+      - name: test...
+        run: echo "testing..."

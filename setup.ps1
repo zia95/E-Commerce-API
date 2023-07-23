@@ -1,7 +1,5 @@
 param([string]$VEnvName='venv')
 
-Set-Alias pyint -Value $PyInterpreter
-
 Write-Output '===> Settings up venv...'
 python.exe -m venv $VEnvName
 

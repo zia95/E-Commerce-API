@@ -1,7 +1,0 @@
-DATABASE_NAME="testdatabase"
-DATABASE_FILE="./testdb1.db"
-HOST="localhost"
-USER="root"
-PASSWORD="ziauddin"
-secret_key="zia"
-access_token_expire_mins=30

@@ -11,7 +11,7 @@ class SettingsModel(BaseSettings):
     secret_key:str
     access_token_expire_mins:int
 
-    model_config = SettingsConfigDict(env_file="env")
+    model_config = SettingsConfigDict(env_file=".env")
 
 
 
