@@ -8,5 +8,11 @@ jobs:
     steps:
       - name: pulling git repo
         uses: actions/checkout@v2
-      - name: test...
-        run: echo "testing..."
+      - name: install Python 3.11
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: update pip
+        run: python -m pip install --upgrade pip
+      - name: install dependencies
+        run: python -m pip install -r requirenments.txt
