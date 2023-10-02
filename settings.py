@@ -5,6 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class SettingsModel(BaseSettings):
     database_name: str
     database_file: str
+    port:int
     host:str
     user:str
     password:str

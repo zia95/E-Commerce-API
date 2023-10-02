@@ -1,3 +1,5 @@
+# we don't need this since we moved to ORM
+""" 
 import sqlite3
 import mysql.connector
 
@@ -218,3 +220,4 @@ def update_post(id, title, body):
     cur.close()
     conn.close()
     return post
+ """

@@ -3,15 +3,13 @@ from fastapi.params import Body
 from schema import Post, PostCreate, UserCreate
 from typing import Optional
 #import dbhelper as db
-from routers import posts, users
+from routers import posts, users, sales, inventory
 from dborm import engine, SessionLocal
 import models
 
 from fastapi.middleware.cors import CORSMiddleware
 
 #models.Base.metadata.create_all(bind=engine)
-
-
 
 app = FastAPI()
 
@@ -33,3 +31,5 @@ async def root():
 
 app.include_router(posts.router)
 app.include_router(users.router)
+app.include_router(sales.router)
+app.include_router(inventory.router)
