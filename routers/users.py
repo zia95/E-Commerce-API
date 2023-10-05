@@ -1,3 +1,4 @@
+from typing import List
 from fastapi import FastAPI, Response, status, HTTPException, APIRouter, Depends
 from fastapi.security.oauth2 import OAuth2PasswordRequestForm
 from schema import Post, PostCreate, UserCreate, Token, User, UserCreateResp
@@ -21,6 +22,10 @@ def create_user(user: UserCreate, db: Session = Depends(get_db)):
     if not usr:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=usr)
     
+    return usr
+@router.get('/', response_model=List[User])
+def get_users(db: Session = Depends(get_db)):
+    usr = db.query(models.User).all()
     return usr
 
 @router.get('/{id}', response_model=User)

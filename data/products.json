@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Dog Thingamajig",
+    "description": "Aliquam rutrum est est, vitae semper nisi sodales vitae",
+    "category": "Music",
+    "size": 133,
+    "total_cost": 233
+  },
+  {
+    "name": "Storage Equipment",
+    "description": "Phasellus eget fringilla justo",
+    "category": "Toy",
+    "size": 131,
+    "total_cost": 131
+  },
+  {
+    "name": "Party Contraption",
+    "description": "Integer consequat vulputate dolor a maximus",
+    "category": "Tool",
+    "size": 138,
+    "total_cost": 276
+  },
+  {
+    "name": "Jewelry Accessory",
+    "description": "Sed ut leo ultricies, eleifend est ut, pellentesque eros.",
+    "category": "Tool",
+    "size": 163,
+    "total_cost": 233
+  },
+  {
+    "name": "Toy Doodad",
+    "description": "Aenean eget turpis quis lorem porta condimentum eu vel orci",
+    "category": "Food",
+    "size": 242,
+    "total_cost": 300
+  },
+  {
+    "name": "Fitness Attachment",
+    "description": "Donec convallis, libero pretium accumsan viverra, felis diam venenatis massa, et vulputate magna nibh et urna",
+    "category": "Toy",
+    "size": 182,
+    "total_cost": 182
+  },
+  {
+    "name": "Cooking Machine",
+    "description": "Cras venenatis diam in mi sodales commodo",
+    "category": "Car",
+    "size": 117,
+    "total_cost": 1086
+  },
+  {
+    "name": "Jewelry Device",
+    "description": "Vivamus justo nulla, tempus et magna et, cursus scelerisque turpis",
+    "category": "Food",
+    "size": 36,
+    "total_cost": 40
+  },
+  {
+    "name": "Dining Whatchamacallit",
+    "description": "Etiam vitae ex vel tortor viverra dictum a nec arcu.",
+    "category": "Music",
+    "size": 123,
+    "total_cost": 323
+  },
+  {
+    "name": "Cooking Device",
+    "description": "Pellentesque vel suscipit metus.",
+    "category": "Car",
+    "size": 222,
+    "total_cost": 1965
+  }
+]
