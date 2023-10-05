@@ -5,7 +5,6 @@ from sqlalchemy import pool
 
 from alembic import context
 
-#import dborm
 import models
 
 # this is the Alembic Config object, which provides

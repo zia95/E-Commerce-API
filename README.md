@@ -23,14 +23,16 @@ NOTE: Make sure whatever the name of the database you use, it exists. Using shel
 3. Install the dependencies using `python.exe -m pip install -r ./requirements.txt`
 4. Sync database state by using `alembic history` to list all the revision and then to sync use `alembic upgrade <rev_id_from_history_command>` 
 5. To run the api use `uvicorn main:app`
-6. Lastly, open the provided url to locally hosted app and naviagate to `<url>/docs`. This will open swagger docs where you can test the api.
+6. Open the provided url to locally hosted app and naviagate to `<url>/docs`. This will open swagger docs where you can test the api.
+7. Now run `/resetdb` endpoint and after this run `/loaddummy` to load test data.
 
-### Method B. Using setup script (NOT FULLY TESTED)
+### Method B. Using setup script (NOT FULLY TESTED OR UPDATED)
 1. Run `setup.ps1` and it will setup all the envionment.
 2. Activate the virtual environment using `./<virtual env name>/Scripts/Activate.ps1`
 3. Sync database state by using `alembic history` to list all the revision and then to sync use `alembic upgrade <rev_id_from_history_command>` 
 4. To run the api use `uvicorn main:app`
-5. Lastly, open the provided url to locally hosted app and naviagate to `<url>/docs`. This will open swagger docs where you can test the api.
+5. Open the provided url to locally hosted app and naviagate to `<url>/docs`. This will open swagger docs where you can test the api.
+6. Now run `/resetdb` endpoint and after this run `/loaddummy` to load test data.
 
 # Technologies
 1. FastAPI: WebAPI framework.
